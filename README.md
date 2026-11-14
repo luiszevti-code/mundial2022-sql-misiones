@@ -2,7 +2,7 @@
 
 Diez misiones de análisis en SQL sobre el Mundial de Qatar 2022. Devi, la mascota de MentDev, investiga cómo se jugó el torneo, y cada misión es una pregunta que se responde con una consulta: desde un `JOIN` sencillo hasta funciones de ventana.
 
-Es el **Proyecto 2** de mi serie de SQL. El [Proyecto 1](https://github.com/luiszevti-code/mundial2022-sql-database) construye la base de datos; este la usa.
+Es el **Proyecto 2** de mi serie de SQL. El [Proyecto 1](https://github.com/TU-USUARIO/mundial2022-sql-database) construye la base de datos; este la usa.
 
 > Diseño y análisis: Luis Zevallos · MentDev
 
@@ -31,8 +31,8 @@ El Mundial de Qatar 2022 tuvo de todo: el campeón perdió su debut, hubo cinco 
 | 2 | [El ritmo de cada fase](misiones/nivel-1/02-el-ritmo-de-cada-fase.md) | `GROUP BY`, `AVG` | ✅ |
 | 3 | [Los más atrevidos](misiones/nivel-1/03-los-mas-atrevidos.md) | `JOIN`, `GROUP BY`, porcentajes | ✅ |
 | **Nivel 2 · Interrogatorio** | | | |
-| 4 | Los clasificados con el agua al cuello | CTE, subconsultas | ⬜ |
-| 5 | La lotería del gol (xG) | agregaciones, comparaciones | ⬜ |
+| 4 | [Los clasificados con el agua al cuello](misiones/nivel-2/04-los-clasificados-con-el-agua-al-cuello.md) | CTE, subconsultas | ✅ |
+| 5 | [La lotería del gol (xG)](misiones/nivel-2/05-la-loteria-del-gol.md) | agregaciones, comparaciones | ✅ |
 | 6 | Las tandas de penales | filtros por periodo, `GROUP BY` | ⬜ |
 | 7 | Los minutos de oro | `CASE` en agrupaciones | ⬜ |
 | **Nivel 3 · Resolución** | | | |
