@@ -3,7 +3,7 @@
 <img src="docs/devi.png" align="right" width="200" alt="Devi, la mascota de MentDev">
 Diez misiones de análisis en SQL sobre el Mundial de Qatar 2022. Devi, la mascota de MentDev, investiga cómo se jugó el torneo, y cada misión es una pregunta que se responde con una consulta: desde un `JOIN` sencillo hasta funciones de ventana.
 
-Es el **Proyecto 2** de mi serie de SQL. El [Proyecto 1](https://github.com/TU-USUARIO/mundial2022-sql-database) construye la base de datos; este la usa.
+Es el **Proyecto 2** de mi serie de SQL. El [Proyecto 1](https://github.com/luiszevti-code/mundial2022-sql-database.git) construye la base de datos; este la usa.
 
 > Diseño y análisis: Luis Zevallos · MentDev
 
