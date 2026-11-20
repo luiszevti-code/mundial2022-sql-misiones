@@ -34,8 +34,8 @@ El Mundial de Qatar 2022 tuvo de todo: el campeón perdió su debut, hubo cinco 
 | **Nivel 2 · Interrogatorio** | | | |
 | 4 | [Los clasificados con el agua al cuello](misiones/nivel-2/04-los-clasificados-con-el-agua-al-cuello.md) | CTE, subconsultas | ✅ |
 | 5 | [La lotería del gol (xG)](misiones/nivel-2/05-la-loteria-del-gol.md) | agregaciones, comparaciones | ✅ |
-| 6 | Las tandas de penales | filtros por periodo, `GROUP BY` | ⬜ |
-| 7 | Los minutos de oro | `CASE` en agrupaciones | ⬜ |
+| 6 | [Las tandas de penales](misiones/nivel-2/06-las-tandas-de-penales.md) | doble `JOIN`, `CONCAT`, filtros por periodo | ✅ |
+| 7 | [Los minutos de oro](misiones/nivel-2/07-los-minutos-de-oro.md) | CTE, `CASE` en agrupaciones | ✅ |
 | **Nivel 3 · Resolución** | | | |
 | 8 | El goleador de cada selección | `RANK() OVER (PARTITION BY …)` | ⬜ |
 | 9 | El duelo de las estrellas | varias CTEs, `LEFT JOIN`, `COALESCE` | ⬜ |
