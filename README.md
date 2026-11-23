@@ -37,9 +37,9 @@ El Mundial de Qatar 2022 tuvo de todo: el campeón perdió su debut, hubo cinco 
 | 6 | [Las tandas de penales](misiones/nivel-2/06-las-tandas-de-penales.md) | doble `JOIN`, `CONCAT`, filtros por periodo | ✅ |
 | 7 | [Los minutos de oro](misiones/nivel-2/07-los-minutos-de-oro.md) | CTE, `CASE` en agrupaciones | ✅ |
 | **Nivel 3 · Resolución** | | | |
-| 8 | El goleador de cada selección | `RANK() OVER (PARTITION BY …)` | ⬜ |
-| 9 | El duelo de las estrellas | varias CTEs, `LEFT JOIN`, `COALESCE` | ⬜ |
-| 10 | La final minuto a minuto | `COUNT() OVER`, `LAG` | ⬜ |
+| 8 | [El goleador de cada selección](misiones/nivel-3/08-el-goleador-de-cada-seleccion.md) | CTEs, `RANK() OVER (PARTITION BY …)` | ✅ |
+| 9 | [El duelo de las estrellas](misiones/nivel-3/09-el-duelo-de-las-estrellas.md) | varias CTEs, `LEFT JOIN`, `COALESCE` | ✅ |
+| 10 | [La final minuto a minuto](misiones/nivel-3/10-la-final-minuto-a-minuto.md) | `SUM() OVER`, `LAG` | ✅ |
 
 ## Estructura del repositorio
 
